@@ -13,18 +13,6 @@ const menu = {
     mains:[],
     desserts:[]
     },
-  get appetizers() {
-  },
-  set appetizers(appetizerIn){
-  },
-  get mains() {
-  },
-  set mains(mainsIn){
-  },
-  get desserts() {
-  },
-  set desserts(dessertsIn){
-  },
   get courses() {
     return {
     appetizers: this.appetizers,
@@ -73,7 +61,7 @@ menu._courses.appetizers=setOfAppetizers1
 menu._courses.mains=setOfMains1
 menu._courses.desserts=setOfDesserts1
 
-menu.addDishToCourse('appetizers','kupa',5)
+menu.addDishToCourse('appetizers','deska serow',8)
 menu.addDishToCourse('mains','sajgonki',5)
 menu.addDishToCourse('desserts','lody kokosowe', 3)
 //p(menu._courses.appetizers)
