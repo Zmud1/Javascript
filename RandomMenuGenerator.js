@@ -61,15 +61,14 @@ menu._courses.appetizers=setOfAppetizers1
 menu._courses.mains=setOfMains1
 menu._courses.desserts=setOfDesserts1
 
-menu.addDishToCourse('appetizers','deska serow',8)
-menu.addDishToCourse('mains','sajgonki',5)
-menu.addDishToCourse('desserts','lody kokosowe', 3)
+//menu.addDishToCourse('appetizers','deska serow',8)
+//menu.addDishToCourse('mains','sajgonki',5)
+//menu.addDishToCourse('desserts','lody kokosowe', 3)
 //p(menu._courses.appetizers)
 //p(menu._courses.mains)
 //p(menu._courses.desserts)
 
 //p(menu.getRandomDishFromCourse('appetizers'))
-
-menu.getRandomMeal()
+//menu.getRandomMeal()
 
 
